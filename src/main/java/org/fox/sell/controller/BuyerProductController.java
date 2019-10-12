@@ -66,7 +66,7 @@ public class BuyerProductController {
         resultVO.setData(productVO);
 
         productInfoVO.setProductId("1");
-        productInfoVO.setProductName("奶茶");
+        productInfoVO.setProductName("柠檬奶茶");
         productVO.setProductInfoVOList(Arrays.asList(productInfoVO));
 
         return resultVO;
